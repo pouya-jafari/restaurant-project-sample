@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +43,7 @@
   content: "";
   height: 3px;
   width: 0;
-  background: #009688;
+  background: #215f11;
   position: absolute;
 
   left: 0;
@@ -57,4 +59,59 @@
   color: #d122b7;
   transform: scale(0.95);
   transition: transform 0.2s ease;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.content p {
+  font-family: "Aref Ruqaa", serif;
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #215f11;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.content span {
+  background: #215f11;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.content button:hover span {
+  width: 100%;
+}
+
+.content button:hover {
+  border: none;
 }
