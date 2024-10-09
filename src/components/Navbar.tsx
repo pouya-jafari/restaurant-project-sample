@@ -1,11 +1,23 @@
+import AnchorLink from "./AnchorLink";
+import logoImg from "../assets/tanje_transparent.png";
 export default function Navbar() {
-  <div className="navbar">
-    <img src="logo.png" alt="" className="logo" />
-
-    <ul>
-      <li>
-        <a href=""></a>
-      </li>
-    </ul>
-  </div>;
+  return (
+    <div className="navbar">
+      <img src={logoImg} alt="" className="logo" />
+      <ul>
+        <li>
+          <AnchorLink>Home</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink>Menu</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink>About</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink>Contact</AnchorLink>
+        </li>
+      </ul>
+    </div>
+  );
 }
