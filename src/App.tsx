@@ -4,7 +4,7 @@ function App() {
     <>
       <div className="banner">
         <Navbar />
-        <div className="content">
+        <div className="head-content">
           <h1>طنجه</h1>
           <p>طعم اصیل ایرانی</p>
           <div>
@@ -16,6 +16,7 @@ function App() {
             </button>
           </div>
         </div>
+        <div className=""></div>
       </div>
     </>
   );

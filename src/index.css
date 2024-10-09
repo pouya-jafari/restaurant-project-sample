@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +36,7 @@
 }
 
 .navbar ul li a {
+  font-family: "Noto Nastaliq Urdu", serif;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -60,7 +63,7 @@
   transform: scale(0.95);
   transition: transform 0.2s ease;
 }
-.content {
+.head-content {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -69,20 +72,20 @@
   color: #fff;
 }
 
-.content h1 {
+.head-content h1 {
   font-family: "Noto Nastaliq Urdu", serif;
   font-size: 70px;
   margin-top: 80px;
 }
 
-.content p {
+.head-content p {
   font-family: "Aref Ruqaa", serif;
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
 }
 
-.content button {
+.head-content button {
   width: 200px;
   padding: 15px 0;
   text-align: center;
@@ -96,7 +99,7 @@
   position: relative;
 }
 
-.content span {
+.head-content span {
   background: #215f11;
   height: 100%;
   width: 0;
@@ -108,10 +111,10 @@
   transition: 0.5s;
 }
 
-.content button:hover span {
+.head-content button:hover span {
   width: 100%;
 }
 
-.content button:hover {
+.head-content button:hover {
   border: none;
 }
