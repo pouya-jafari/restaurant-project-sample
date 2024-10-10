@@ -54,6 +54,11 @@
   transition: 0.5s;
 }
 
+.navbar ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
 .navbar ul li:hover::after {
   width: 100%;
 }
@@ -80,7 +85,7 @@
 
 .head-content p {
   font-family: "Aref Ruqaa", serif;
-  margin: 20px auto;
+  margin: 50px 40px;
   font-weight: 100;
   line-height: 25px;
 }
@@ -117,4 +122,15 @@
 
 .head-content button:hover {
   border: none;
+}
+
+#detail-section {
+  background: linear-gradient(135deg, #8b5e3c, #8b5917);
+  /* background: linear-gradient(135deg, #0e6251, #145a32, #8b5e3c, #d2b48c); */
+  color: #f8f4e3;
+}
+
+.button-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }

@@ -4,7 +4,8 @@ export default function Head() {
     <div className="banner">
       <Navbar />
       <div className="head-content">
-        <h1>طنجه</h1>
+        <h1 className="padding-bottom:2px">طنجه</h1>
+
         <p>طعم اصیل ایرانی</p>
         <div>
           <button type="button">

@@ -6,16 +6,18 @@ export default function Navbar() {
       <img src={logoImg} alt="" className="logo" />
       <ul>
         <li>
-          <AnchorLink>Home || خانه</AnchorLink>
+          <AnchorLink link="#">
+            <i className="fa fa-1x fa-home "></i> Home || خانه
+          </AnchorLink>
         </li>
         <li>
-          <AnchorLink>Menu || منو</AnchorLink>
+          <AnchorLink link="#">Menu || منو</AnchorLink>
         </li>
         <li>
-          <AnchorLink>About || درباره</AnchorLink>
+          <AnchorLink link="#">About || درباره</AnchorLink>
         </li>
         <li>
-          <AnchorLink>Contact || تماس بگیرید</AnchorLink>
+          <AnchorLink link="#">Contact || تماس بگیرید</AnchorLink>
         </li>
       </ul>
     </div>
