@@ -64,7 +64,6 @@
 }
 
 .navbar ul li a:active {
-  color: #d122b7;
   transform: scale(0.95);
   transition: transform 0.2s ease;
 }

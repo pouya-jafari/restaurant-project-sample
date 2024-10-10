@@ -1,14 +1,16 @@
 import AnchorLink from "./AnchorLink";
 import logoImg from "../assets/tanje_transparent.png";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <div className="navbar">
       <img src={logoImg} alt="" className="logo" />
       <ul>
         <li>
-          <AnchorLink link="#">
+          <Link to="/">
             <i className="fa fa-1x fa-home "></i> Home || خانه
-          </AnchorLink>
+          </Link>
         </li>
         <li>
           <AnchorLink link="#">Menu || منو</AnchorLink>
