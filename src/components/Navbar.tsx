@@ -13,7 +13,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <AnchorLink link="#">Menu || منو</AnchorLink>
+          <Link to="/menu">Menu || منو</Link>
         </li>
         <li>
           <AnchorLink link="#">About || درباره</AnchorLink>

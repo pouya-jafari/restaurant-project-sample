@@ -1,5 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 export default function Head() {
+  const navigate = useNavigate();
+  function NavigateHandler() {
+    navigate("/menu");
+  }
   return (
     <div className="banner">
       <Navbar />
@@ -8,7 +13,7 @@ export default function Head() {
 
         <p>طعم اصیل ایرانی</p>
         <div>
-          <button type="button">
+          <button type="button" onClick={NavigateHandler}>
             <span></span>منو
           </button>
           <button type="button">

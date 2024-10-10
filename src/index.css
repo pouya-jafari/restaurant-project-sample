@@ -15,6 +15,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .navbar {
   width: 85%;
   margin: auto;
@@ -22,6 +23,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .logo {
   width: 120px;
@@ -132,4 +136,8 @@
 .button-hover:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+.menu-section {
+  background: linear-gradient(135deg, #8b5e3c, #8b5917);
 }
