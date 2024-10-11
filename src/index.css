@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
-@import "bootstrap/dist/css/bootstrap.min.css";
 
 * {
   margin: 0;
@@ -82,8 +81,10 @@
 
 .head-content h1 {
   font-family: "Noto Nastaliq Urdu", serif;
-  font-size: 70px;
+  font-size: 200px;
   margin-top: 80px;
+  padding-bottom: 50px;
+  color: white;
 }
 
 .head-content p {
@@ -128,8 +129,8 @@
 }
 
 #detail-section {
-  background: linear-gradient(135deg, #8b5e3c, #8b5917);
-  /* background: linear-gradient(135deg, #0e6251, #145a32, #8b5e3c, #d2b48c); */
+  /* background: linear-gradient(135deg, #8b5e3c, #8b5917); */
+  background: linear-gradient(135deg, #0067a5, #57c5c6, #1c39bb);
   color: #f8f4e3;
 }
 
@@ -139,5 +140,9 @@
 }
 
 .menu-section {
-  background: linear-gradient(135deg, #8b5e3c, #8b5917);
+  background: linear-gradient(135deg, #ebd4aa, #c8b696);
+}
+
+.menu-item-sec {
+  font-family: "Noto Nastaliq Urdu", serif;
 }
